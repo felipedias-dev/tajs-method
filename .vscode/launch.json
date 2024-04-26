@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to NodeJS Debug Port",
+      "port": 9229,
+      "request": "attach",
+      "skipFiles": [
+        "<node_internals>/**",
+        "${workspaceFolder}/**/node_modules/**"
+      ],
+      "type": "node",
+      "smartStep": true,
+      "internalConsoleOptions": "openOnSessionStart",
+      "restart": true
+    }
+  ]
+}
