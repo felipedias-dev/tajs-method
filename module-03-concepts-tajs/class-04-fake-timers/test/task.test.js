@@ -51,6 +51,7 @@ describe('#Task Test Suite', () => {
     expect(tasks.at(0).fn).toHaveBeenCalled();
     expect(tasks.at(1).fn).toHaveBeenCalled();
   }, 15e3); // It is important to increase the timeout for this test by 15 seconds (default is 5 seconds)
+
   it('should only run tasks that are due with fake timers (fast)', async () => {
     // AAA = Arrange | Act | Assert
 
